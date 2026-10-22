@@ -6,7 +6,7 @@ export class CredencialesDTO{
     };
 };
 
-export class PerfilCazador{
+export class PerfilCazadorDTO{
 
     constructor(cazador = {}){
 
