@@ -1,6 +1,4 @@
 import { Schema, model } from 'mongoose';
-import { timeStamp } from 'node:console';
-import { type } from 'node:os';
 
 const cazadorSchema = new Schema({
     sub:      {type: String, require: true, unique: true},
