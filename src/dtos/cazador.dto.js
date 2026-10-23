@@ -18,7 +18,7 @@ export class PerfilCazadorDTO{
     };
 };
 
-export class crearRecompensaDTO{
+export class CrearRecompensaDTO{
 
     constructor(data = {}){
         this.mision = String(data.mision ?? "").trim();

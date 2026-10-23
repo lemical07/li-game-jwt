@@ -3,7 +3,7 @@ import jwt from 'jsonwebtoken';
 import { CAZADORES_SEMILLA } from '../models/cazador.model.js'
 import { PerfilCazadorDTO } from '../dtos/cazador.dto.js';
 
-export const JWT_SECRET = process.env.JWT_SECRET | "lisel_secret_kew_256_bits";7
+export const JWT_SECRET = process.env.JWT_SECRET || "lisel_secret_kew_256_bits";
 export const JWT_EXPIRIES_IN = "2h";
 const recompensasMemoria = [];
 

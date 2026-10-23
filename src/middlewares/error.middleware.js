@@ -1,6 +1,6 @@
 import { url } from "node:inspector";
 
-export function rutaNoEncontrada8(req, res){
+export function rutaNoEncontrada(req, res){
     res.status(404).json({
         error: "Ruta no encontrada", 
         metodo: req.method,
