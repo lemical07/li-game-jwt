@@ -24,7 +24,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/app.js --quiet"
+    "dev": "nodemon src/server.js --quiet"
   },
   "dependencies": {
     "cors": "^2.8.6",
